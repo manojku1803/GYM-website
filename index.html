@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Fitness</title>
+</head>
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/bg2.jpg");
+        background-size: 1500px 1500px;
+        background-repeat: no-repeat;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid royalblue;
+
+
+    }
+
+    .left img {
+        width: 123px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 40px auto;
+        border: 2px solid white;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 46px;
+        top: 46px;
+        display: inline-block;
+        border: 2px solid blueviolet;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: solid white;
+        text-decoration: none;
+        padding: 36px 24px;
+
+    }
+
+    .navbar li a :hover,
+    .navbar li a :active {
+        color: solid grey;
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: solid white;
+        padding: 36px 24px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(65, 62, 62);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- Left box for logo -->
+            <img src="img/logo.png" alt="">
+            <div>Manoj Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- Mid box for navbar -->
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Center</a></li>
+                <li> <a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- Right box for bottons -->
+            <button>Email</button>
+        </div>
+    </header>
+</body>
+
+</html>
